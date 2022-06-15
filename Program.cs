@@ -25,7 +25,6 @@ double result = Math.Sqrt(ExpNum(distanceX,2) +
                           ExpNum(distanceZ,2));
 Console.WriteLine($"Расстояние между точками: {result}");
 
-
 // Задача 23: Напишите программу, которая принимает на вход число (N)
 // и выдаёт таблицу кубов чисел от 1 до N.
 
@@ -82,8 +81,6 @@ int ExpNum(int b,int e)
      }
      return result;
 }
-
-
 
 int Input(string str)
 {
